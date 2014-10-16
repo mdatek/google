@@ -1,0 +1,104 @@
+a {
+	text-decoration: none;
+	color:black;
+}
+li{
+	display: inline-block;
+	padding: 5px;
+	vertical-align: middle;
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+}
+
+.rightheader{
+text-align: right;
+vertical-align: middle;
+}
+
+.body{
+	height: 365px;
+	width: 960px;
+	margin: 20px auto;
+}
+
+#logo{
+	text-align: center;
+	margin-top: 135px;
+
+}
+
+#search{
+	text-align: center;
+}
+#searchbox{
+	text-align: center;
+	background: url('./images/microphone.png');	
+	background-repeat: no-repeat;
+	background-position: 100%;
+	background-size: 16px;
+	border: solid 1px rgb(204, 202, 202);
+	height: 25px;
+}
+
+#header {
+	text-align: right;
+
+}
+
+div li button {
+	background-color: rgb(67, 135, 253);
+	color: white;
+	height: 35px;
+	width: 70px;
+	border-radius: 5px;
+}
+.btnsearch {
+	text-decoration: none;
+	text-align: right;
+	border: .5px gray solid;
+	background-color: silver;
+	padding: 5px;
+	height: 35px;
+}
+
+.buttons{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.btnlucky{
+	text-decoration: none;
+	color:black;
+	border: .5px gray solid;
+	background-color: silver;
+	padding: 5px;
+	height: 35px;
+
+}
+
+#footer{
+	width:100%;
+	height:35px;
+	background:#E0E0E0;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:30px;
+	width:100%;
+}
+
+.leftfooter{
+	width:10px;
+	padding: 10px;
+	font-family: Tahoma, sans-serif;
+	color: rgb(67, 135, 253);
+}
+.rightfooter{
+	float:right;
+	font-family: Tahoma, sans-serif;
+	color: rgb(67, 135, 253);
+}
+
+span a{
+	padding: 10px;
+}
